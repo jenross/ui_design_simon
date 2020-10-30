@@ -21,9 +21,11 @@ body {
   /* what we used on more grey background */
   /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); */
   /* for white card on white background- 20 or 30 for third value- after this part of challenge 2 discusses how to do it with different colored backgrounds */
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2); */
   /* hard example */
   /* box-shadow: 0px 4px 3px rgba(0,0,0,0.1); */
+  /* color drop shadow that matches hues of the blue button - don't do this on a dark background */
+  box-shadow: 10px 10px 30px rgba(0, 109, 175, 0.2);
 }
 /* box-shadow: horizontal vertical blur color; 
        box-shadow: 10px 10px 10px rgba(0,0,0,0.5); */
